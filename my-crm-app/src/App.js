@@ -14,7 +14,6 @@ function App() {
         <BrowserRouter>
             <section className="app-wraper">
                 <SideMenu/>
-                <Product/>
                 <div className="app-wraper-items">
                     <Routes>
                         <Route path='/dashboard' element={<Dashboard/>}></Route>
@@ -25,6 +24,7 @@ function App() {
                         <Route path='/help' element={<Help/>}></Route>
                     </Routes>
                 </div>
+                <Product/>
             </section>
         </BrowserRouter>
     );
