@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /*align-items: center;*/
     padding: 20px 50px 0 50px;
 }
 .sideWraper__title{
@@ -46,6 +45,35 @@
     justify-content: end;
 }
 .profile__photo img {
-    width: 41px;
+    width: 42px;
     border-radius: 40px;
+    background-color: #9197B3;
+    margin-right: 12px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 597px;
+    & p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.8px;
+        color: #9197B3;
+        /*background-color: red;*/
+    }
+}
+.profile__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.profile__description {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }

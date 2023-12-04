@@ -1,3 +1,70 @@
 .productWraper {
-    background-color: wheat;
+    background-color: #F9FBFF;
+    padding: 20px 50px 0 50px;
+    & h1 {
+        margin-bottom: 51px;
+    }
+}
+#product {
+    margin: 0;
+}
+.crmTable {
+    background-color: #fff;
+}
+.titleTable {
+    /*background-color: #00B087;*/
+    padding: 35px;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleItem {
+    & h1 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+    & span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        color: #16C098;
+    }
+}
+.footerTable {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & p {
+        color: #B5B7C0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li:not(not:last-child) {
+    margin-right: 12px;
+    font-size: 12px;
+    text-align: center;
+    padding: 12px 10px 6px 10px;
+}
+li.active {
+    color: #fff;
+    background-color: #5932EA;
+}
+.chevronLeft {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #EEEEEE;
 }

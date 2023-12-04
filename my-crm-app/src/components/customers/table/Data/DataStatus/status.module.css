@@ -1,0 +1,14 @@
+.item {
+    border: 1px solid #00B087;
+    border-radius: 4px;
+    padding: 4px 12px 4px 12px;
+    color: #00B087;
+    background-color: #16C09861;
+}
+.inactive {
+    border: 1px solid #DF0404;
+    border-radius: 4px;
+    padding: 4px 12px 4px 12px;
+    color: #DF0404;
+    background-color: #FFC5C5;
+}

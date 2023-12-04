@@ -9,12 +9,15 @@ import Income from "./components/income/income";
 import Promote from "./components/promote/promote";
 import Help from "./components/help/help";
 
+
+
 function App() {
+
+
     return (
         <BrowserRouter>
             <section className="app-wraper">
-                <SideMenu/>
-                <div className="app-wraper-items">
+                <SideMenu name="Danya"/>
                     <Routes>
                         <Route path='/dashboard' element={<Dashboard/>}></Route>
                         <Route path='/product' element={<Sales/>}></Route>
@@ -23,8 +26,6 @@ function App() {
                         <Route path='/promote' element={<Promote/>}></Route>
                         <Route path='/help' element={<Help/>}></Route>
                     </Routes>
-                </div>
-                <Product/>
             </section>
         </BrowserRouter>
     );
